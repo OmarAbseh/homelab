@@ -1,0 +1,38 @@
+# Secrets and credentials - NEVER commit these
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+secrets/
+*secret*
+*password*
+
+# Kubernetes credentials (kubeconfig gives full cluster access)
+kubeconfig
+*.kubeconfig
+.kube/
+k3s.yaml
+
+# Cloud credentials
+*accessKeys*.csv
+credentials
+.aws/
+.azure/
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# OS / editor noise
+.DS_Store
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs and local data
+*.log
+data/
