@@ -31,7 +31,7 @@ Running workload in `default`:
 System components (kube-system), all Running/Completed:
 - coredns, traefik, metrics-server, local-path-provisioner, svclb-traefik.
 
-Traefik LoadBalancer has external IP `192.168.1.106`, so the cluster is reachable on the home LAN.
+Traefik LoadBalancer has external IP `node-ip`, so the cluster is reachable on the home LAN.
 
 ## Gaps found during this audit
 
