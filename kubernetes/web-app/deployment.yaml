@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:stable
+          image: nginx:alpine
           ports:
             - containerPort: 80
           # small caps so this pod can never starve the laptop
