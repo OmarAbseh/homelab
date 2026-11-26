@@ -221,6 +221,6 @@ Never put the key on the internet-facing box. This is what Azure Bastion automat
 
 ## Diagram
 
-![Architecture diagram](diagram.png)
+![Architecture diagram](diagram.svg)
 
 *(two-tier VNet: internet to web-subnet on 80, SSH to web-subnet from my IP only, web-subnet to app-subnet on 80/22, internet blocked from app-subnet)*
